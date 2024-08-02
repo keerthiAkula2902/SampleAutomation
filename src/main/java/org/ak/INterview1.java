@@ -9,6 +9,8 @@ public class INterview1 {
 		String q[] = test.split(" ", 3);
 		for (String temp : q) {
 			System.out.println(temp);
+
+			
 		}
 		// a = a + b;
 		a = a.concat(b);
