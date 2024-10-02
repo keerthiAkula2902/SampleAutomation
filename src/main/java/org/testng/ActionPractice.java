@@ -12,6 +12,7 @@ public class ActionPractice {
 		Actions act=new Actions(driver);
 		driver.get("https://www.browserstack.com/guide/mouse-hover-in-selenium");
 		WebElement we=driver.findElement(By.id("products-dd-toggle"));
+	
 		act.moveToElement(we).click().build().perform();
 		Thread.sleep(3000);
 		WebElement we1=driver.findElement(By.xpath("//div[@class=' bstack-mm-sub-nav-tabcol']//span[text()='Live']"));
